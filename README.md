@@ -4,5 +4,5 @@ bashをよく読んで環境に合うように適宜変更してください！�
 
 cronで5分おきに設定しておくといいと思います！
 ```
-*/5 * * * * your/bash/path/ddns.sh >> your/bash/path/ddns.log 2>&1
+*/5 * * * * your/bash/path/ddns.sh >> /logging/path/ddns.log 2>&1
 ```
